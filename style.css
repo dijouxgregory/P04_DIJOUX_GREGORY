@@ -82,6 +82,30 @@ a:hover {
     width: 100px;
     height: auto;
 }
+
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 340px;
+    max-height: 340px;
+}
+.main-footer-hover-item{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40%;
+    height: 250px;
+    min-width: 270px;
+    min-height: 250px;
+    position: absolute;
+    align-self: center; 
+    padding: 10px;
+
+}
+
+}
 .footer-text-align{
     align-items: center;
 }
