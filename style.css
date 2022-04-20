@@ -105,12 +105,14 @@ a:hover {
     padding: 10px;
 
 }
-
 .footer-block{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+}
+.footer-name{
+    color: #000000;
 }
 
 
@@ -193,7 +195,6 @@ society-info a:hover{
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
-.d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
@@ -291,7 +292,7 @@ society-info a:hover{
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
-.l-bloc h4 a,
+
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
@@ -309,7 +310,6 @@ society-info a:hover{
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
@@ -837,9 +837,6 @@ h1 {
     color: #333333!important;
 }
 
-h4 {
-    color: #333333!important;
-}
 
 .icons {
     margin-bottom: 14px;
