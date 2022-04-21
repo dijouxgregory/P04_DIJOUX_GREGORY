@@ -54,6 +54,16 @@ a:hover {
     min-height: 440px;
     max-height: 440px;
 }
+.main-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+    text-align: center;
+}
+
 
 .background-cover{
     object-fit: cover;
@@ -129,21 +139,6 @@ society-info a:hover{
     padding: 20px 50px;
 }
 
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
-}
 
 .bg-repeat {
     background: repeat;
@@ -833,10 +828,6 @@ h4{
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
 
 .icons {
     margin-bottom: 14px;
@@ -908,15 +899,6 @@ h1 {
 
 .ltc-atomic-tangerine:hover {
     color: #c27956!important;
-}
-
-.icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
 }
 
 .bg-presentation {
